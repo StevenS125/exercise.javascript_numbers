@@ -3,7 +3,6 @@ function compute(expression) {
     var s = expression
     // Seperate values with operators
 s = s.replace(/\s/g, '').match(/[+\-*/]?([0-9\.\s]+)/g) || [];
-    
-    return total;
+return eval(expression)
 
 }
